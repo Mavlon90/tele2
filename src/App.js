@@ -3,23 +3,23 @@ import Tarif from './tarifs/Tarif'
 
 export default function App() {
    const tariffs = [
-       {id: 123, title: "Мой онлайн +", price: "700", chase: '₽', month: "месяц", 
+       {id: 123, title: "Мой онлайн +", price: 700, chase: '₽', month: "месяц", 
        title2: "безлимит на Tele2 России", purchase: "800 мин.", blockNum: "на остальные номера России", 
        num: "30", gb: "ГБ интернета"},
 
-       {id: 123, title: "Везде онлайн", price: "500", chase: '₽', month: "месяц", 
+       {id: 124, title: "Везде онлайн", price: 500, chase: '₽', month: "месяц", 
        title2: "безлимит на Tele2 России", purchase: "500 мин.", blockNum: "на остальные номера России", 
        num: "40", gb: "ГБ интернета"},
   
-       {id: 123, title: "Мой онлайн", price: "400", chase: '₽', month: "месяц", 
+       {id: 125, title: "Мой онлайн", price: 400, chase: '₽', month: "месяц", 
        title2: "безлимит на Tele2 России", purchase: "500 мин.", blockNum: "на остальные номера России", 
        num: "15", gb: "ГБ интернета"},
   
-       {id: 123, title: "Мой разговор", price: "200", chase: '₽', month: "месяц", 
+       {id: 126, title: "Мой разговор", price: 200, chase: '₽', month: "месяц", 
        title2: "безлимит на Tele2 России", purchase: "200 мин.", blockNum: "на остальные номера России", 
        num: "2", gb: "ГБ интернета"},
   
-       {id: 123, title: "Мой Tele 2", price: "7", chase: '₽', month: "день", 
+       {id: 127, title: "Мой Tele 2", price: "7", chase: '₽', month: "день", 
        title2: "безлимит на Tele2 России", num: "5", gb: "ГБ интернета"},
   
    ];
