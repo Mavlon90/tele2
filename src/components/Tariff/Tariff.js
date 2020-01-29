@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Tarif(props) {
+export default function Tariff(props) {
     return (
     <article>
         <div><h1>{props.title}</h1></div>
